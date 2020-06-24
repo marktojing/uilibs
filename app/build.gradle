@@ -1,4 +1,7 @@
 apply plugin: 'com.android.application'
+apply plugin: 'com.github.dcendents.android-maven'
+
+group='com.github.marktojing'
 android {
     compileSdkVersion 29
 
@@ -41,6 +44,5 @@ dependencies {
     implementation 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.31'
     implementation 'com.jakewharton:butterknife:10.2.1'
     annotationProcessor 'com.jakewharton:butterknife-compiler:10.2.1'
-    implementation project(':ui')
     implementation project(path: ':ui')
 }
