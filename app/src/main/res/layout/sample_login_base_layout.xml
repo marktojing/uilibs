@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+       >
+<!--        <com.csnt.ui.view.single.statusBar.StatusBarHeightView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            app:use_type="use_padding_top"-->
+<!--            android:orientation="vertical"-->
+<!--          >-->
+
+        <!--    <com.csnt.ui.layout.loginLayout.LoginBaseLayout-->
+        <!--        android:layout_width="match_parent"-->
+        <!--        android:layout_height="match_parent"-->
+        <!--        android:background="#ccc"-->
+        <!--        app:exampleColor="#33b5e5"-->
+        <!--        app:exampleDimension="24sp"-->
+        <!--        app:exampleDrawable="@android:drawable/ic_menu_add"-->
+        <!--        app:exampleString="Hello, LoginBaseLayout" />-->
+ <include
+     android:id="@+id/header_bar"
+     layout="@layout/demo_header_bar"/>
+<!--        <TextView-->
+<!--            android:id="@+id/test"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:layout_marginTop="@dimen/dp10"-->
+<!--            android:clickable="true"-->
+<!--            android:gravity="center"-->
+<!--            android:text="代码控制ripple5_有drawable_有mask" />-->
+        <!--    <com.csnt.ui.layout.loginLayout.LayoutBaseLayout1-->
+        <!--        android:layout_width="match_parent"-->
+        <!--        android:layout_height="match_parent"-->
+        <!--        android:background="@color/colorAccent"/>-->
+
+
+<!--</com.csnt.ui.view.single.statusBar.StatusBarHeightView>-->
+        <include
+            android:id="@+id/recycle"
+            layout="@layout/demo_xrecycleview"/>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycle1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+    </LinearLayout>
+
+
+</layout>

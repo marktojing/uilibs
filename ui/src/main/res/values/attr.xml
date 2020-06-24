@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="buttonLayoutRippleRoundedCorners" format="dimension" localization="suggested" />
+    <attr name="buttonLayoutRippleRoundedCornersLeftTop" format="dimension" localization="suggested" />
+    <attr name="buttonLayoutRippleRoundedCornersRightTop" format="dimension" localization="suggested" />
+    <attr name="buttonLayoutRippleRoundedCornersLeftBottom" format="dimension" localization="suggested" />
+    <attr name="buttonLayoutRippleRoundedCornersRightBottom" format="dimension" localization="suggested" />
+    <attr name="buttonLayoutEnableRipple" format="boolean" localization="suggested" />
+    <attr name="buttonLayoutRippleType" format="enum" localization="suggested">
+        <enum name="circle" value="0" />
+        <enum name="rectangle" value="1" />
+    </attr>
+    <attr name="buttonLayoutDefaultColor" format="color" />
+    <declare-styleable name="ButtonLayout">
+        <attr name="buttonLayoutRippleRoundedCorners" />
+        <attr name="buttonLayoutRippleRoundedCornersLeftTop" />
+        <attr name="buttonLayoutRippleRoundedCornersRightTop" />
+        <attr name="buttonLayoutRippleRoundedCornersLeftBottom" />
+        <attr name="buttonLayoutRippleRoundedCornersRightBottom" />
+        <attr name="buttonLayoutEnableRipple" />
+        <attr name="buttonLayoutRippleType" />
+        <attr name="buttonLayoutDefaultColor" />
+    </declare-styleable>
+    <style name="MyDialog" parent="@android:style/Theme.Holo.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowSoftInputMode">stateHidden</item><!--打开的时候不会弹出键盘-->
+    </style>
+</resources>

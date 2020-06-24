@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--    12sp 小字提示-->
+    <dimen name="tip">12sp</dimen>
+    <!--    14sp（桌面端13sp） 正文/按钮文字-->
+    <dimen name="mainAndButton">14sp</dimen>
+    <!--    16sp（桌面端15sp） 小标题-->
+    <dimen name="smallTitle">16sp</dimen>
+    <!--    20sp Appbar文字-->
+    <dimen name="appBarText">20sp</dimen>
+    <!--    24sp 大标题-->
+    <dimen name="bigTitle">24sp</dimen>
+    <!--    34sp/45sp/56sp/112sp 超大号文字-->
+    <dimen name="superTitle_34">34sp</dimen>
+    <dimen name="superTitle_45">45sp</dimen>
+    <dimen name="superTitle_56">34sp</dimen>
+    <dimen name="superTitle_112">34sp</dimen>
+    <!--    长篇幅正文，每行建议60字符（英文）左右。短文本，建议每行30字符（英文）左右。-->
+</resources>
